@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: white;
+  background: linear-gradient(
+    244.54deg,
+    #070116 0.34%,
+    rgba(7, 1, 22, 0.9) 32.62%,
+    #070116 48.42%,
+    rgba(7, 1, 22, 0.9) 70.91%,
+    #070116 96.5%
+  );
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

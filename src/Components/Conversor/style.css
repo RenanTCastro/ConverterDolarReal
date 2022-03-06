@@ -1,0 +1,73 @@
+.conversor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+}
+
+.moedasDolarReal {
+  display: flex;
+  flex-direction: row;
+}
+
+.moedasRealDolar {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.pais {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nomeMoeda {
+  font-size: 1.56em;
+  line-height: 0px;
+}
+
+.botao {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  margin: 0px 2.5em;
+}
+
+.botao :hover {
+  opacity: 70%;
+  cursor: pointer;
+}
+
+.inputs {
+  border-radius: 10px;
+  border: 2px solid #ffffff;
+  background-color: rgba(0, 0, 0, 0);
+  height: 3em;
+  width: 19em;
+  margin-top: 1em;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1em;
+  padding-left: 1em;
+}
+
+.divInserirValor {
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px;
+  border: 2px solid #ffffff;
+  height: 3em;
+  width: 19em;
+  padding-left: 1em;
+}
+.inputInserirValor {
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1em;
+  margin-left: 15px;
+}
+
+.inputInserirValor:focus {
+  outline: none;
+}
